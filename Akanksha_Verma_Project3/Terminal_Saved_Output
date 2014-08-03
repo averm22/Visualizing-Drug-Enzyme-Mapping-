@@ -1,0 +1,191 @@
+Akankshas-MacBook-Pro:~ hadoop$ /usr/local/hadoop/bin/hadoop jar Desktop/Akanksha_Verma_Project3/AV_Project3.jar Desktop/Akanksha_Verma_Project3/Input/ Desktop/AF
+2014-05-15 19:09:33.601 java[50990:1903] Unable to load realm info from SCDynamicStore
+14/05/15 19:09:34 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+14/05/15 19:09:36 INFO Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+14/05/15 19:09:36 INFO jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+14/05/15 19:09:36 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+14/05/15 19:09:39 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+14/05/15 19:09:40 INFO mapred.FileInputFormat: Total input paths to process : 1
+14/05/15 19:09:40 INFO mapreduce.JobSubmitter: number of splits:1
+14/05/15 19:09:40 INFO Configuration.deprecation: user.name is deprecated. Instead, use mapreduce.job.user.name
+14/05/15 19:09:40 INFO Configuration.deprecation: mapred.jar is deprecated. Instead, use mapreduce.job.jar
+14/05/15 19:09:40 INFO Configuration.deprecation: mapred.output.value.class is deprecated. Instead, use mapreduce.job.output.value.class
+14/05/15 19:09:40 INFO Configuration.deprecation: mapred.mapoutput.value.class is deprecated. Instead, use mapreduce.map.output.value.class
+14/05/15 19:09:40 INFO Configuration.deprecation: mapred.job.name is deprecated. Instead, use mapreduce.job.name
+14/05/15 19:09:40 INFO Configuration.deprecation: mapred.input.dir is deprecated. Instead, use mapreduce.input.fileinputformat.inputdir
+14/05/15 19:09:40 INFO Configuration.deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+14/05/15 19:09:40 INFO Configuration.deprecation: mapred.map.tasks is deprecated. Instead, use mapreduce.job.maps
+14/05/15 19:09:40 INFO Configuration.deprecation: mapred.output.key.class is deprecated. Instead, use mapreduce.job.output.key.class
+14/05/15 19:09:40 INFO Configuration.deprecation: mapred.mapoutput.key.class is deprecated. Instead, use mapreduce.map.output.key.class
+14/05/15 19:09:40 INFO Configuration.deprecation: mapred.working.dir is deprecated. Instead, use mapreduce.job.working.dir
+14/05/15 19:09:41 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_local1912301800_0001
+14/05/15 19:09:42 WARN conf.Configuration: file:/tmp/hadoop-hadoop/mapred/staging/hadoop1912301800/.staging/job_local1912301800_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/05/15 19:09:42 WARN conf.Configuration: file:/tmp/hadoop-hadoop/mapred/staging/hadoop1912301800/.staging/job_local1912301800_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+14/05/15 19:09:42 WARN conf.Configuration: file:/tmp/hadoop-hadoop/mapred/local/localRunner/hadoop/job_local1912301800_0001/job_local1912301800_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/05/15 19:09:42 WARN conf.Configuration: file:/tmp/hadoop-hadoop/mapred/local/localRunner/hadoop/job_local1912301800_0001/job_local1912301800_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+14/05/15 19:09:42 INFO mapreduce.Job: The url to track the job: http://localhost:8080/
+14/05/15 19:09:42 INFO mapred.LocalJobRunner: OutputCommitter set in config null
+14/05/15 19:09:42 INFO mapreduce.Job: Running job: job_local1912301800_0001
+14/05/15 19:09:42 INFO mapred.LocalJobRunner: OutputCommitter is org.apache.hadoop.mapred.FileOutputCommitter
+14/05/15 19:09:43 INFO mapred.LocalJobRunner: Waiting for map tasks
+14/05/15 19:09:43 INFO mapred.LocalJobRunner: Starting task: attempt_local1912301800_0001_m_000000_0
+14/05/15 19:09:43 INFO util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+14/05/15 19:09:43 INFO mapred.Task:  Using ResourceCalculatorProcessTree : null
+14/05/15 19:09:43 INFO mapred.MapTask: Processing split: file:/Users/hadoop/Desktop/Akanksha_Verma_Project3/Input/output.txt:0+67859
+14/05/15 19:09:43 INFO mapred.MapTask: numReduceTasks: 1
+14/05/15 19:09:43 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+14/05/15 19:09:43 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+14/05/15 19:09:43 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+14/05/15 19:09:43 INFO mapred.MapTask: soft limit at 83886080
+14/05/15 19:09:43 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+14/05/15 19:09:43 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+14/05/15 19:09:43 INFO mapred.LocalJobRunner: 
+14/05/15 19:09:43 INFO mapred.MapTask: Starting flush of map output
+14/05/15 19:09:43 INFO mapred.MapTask: Spilling map output
+14/05/15 19:09:43 INFO mapred.MapTask: bufstart = 0; bufend = 67860; bufvoid = 104857600
+14/05/15 19:09:43 INFO mapred.MapTask: kvstart = 26214396(104857584); kvend = 26200828(104803312); length = 13569/6553600
+14/05/15 19:09:43 INFO mapreduce.Job: Job job_local1912301800_0001 running in uber mode : false
+14/05/15 19:09:44 INFO mapreduce.Job:  map 0% reduce 0%
+14/05/15 19:09:44 INFO mapred.MapTask: Finished spill 0
+14/05/15 19:09:44 INFO mapred.Task: Task:attempt_local1912301800_0001_m_000000_0 is done. And is in the process of committing
+14/05/15 19:09:44 INFO mapred.LocalJobRunner: file:/Users/hadoop/Desktop/Akanksha_Verma_Project3/Input/output.txt:0+67859
+14/05/15 19:09:44 INFO mapred.Task: Task 'attempt_local1912301800_0001_m_000000_0' done.
+14/05/15 19:09:44 INFO mapred.LocalJobRunner: Finishing task: attempt_local1912301800_0001_m_000000_0
+14/05/15 19:09:44 INFO mapred.LocalJobRunner: Map task executor complete.
+14/05/15 19:09:44 INFO util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+14/05/15 19:09:44 INFO mapred.Task:  Using ResourceCalculatorProcessTree : null
+14/05/15 19:09:44 INFO mapred.Merger: Merging 1 sorted segments
+14/05/15 19:09:44 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 74635 bytes
+14/05/15 19:09:44 INFO mapred.LocalJobRunner: 
+14/05/15 19:09:44 INFO mapred.Task: Task:attempt_local1912301800_0001_r_000000_0 is done. And is in the process of committing
+14/05/15 19:09:44 INFO mapred.LocalJobRunner: 
+14/05/15 19:09:44 INFO mapred.Task: Task attempt_local1912301800_0001_r_000000_0 is allowed to commit now
+14/05/15 19:09:45 INFO mapreduce.Job:  map 100% reduce 0%
+14/05/15 19:09:45 INFO output.FileOutputCommitter: Saved output of task 'attempt_local1912301800_0001_r_000000_0' to file:/Users/hadoop/temp/_temporary/0/task_local1912301800_0001_r_000000
+14/05/15 19:09:45 INFO mapred.LocalJobRunner: reduce > reduce
+14/05/15 19:09:45 INFO mapred.Task: Task 'attempt_local1912301800_0001_r_000000_0' done.
+14/05/15 19:09:46 INFO mapreduce.Job:  map 100% reduce 100%
+14/05/15 19:09:46 INFO mapreduce.Job: Job job_local1912301800_0001 completed successfully
+14/05/15 19:09:46 INFO mapreduce.Job: Counters: 24
+	File System Counters
+		FILE: Number of bytes read=22902532
+		FILE: Number of bytes written=33692744
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=3393
+		Map output records=3393
+		Map output bytes=67860
+		Map output materialized bytes=74652
+		Input split bytes=119
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=225
+		Reduce shuffle bytes=0
+		Reduce input records=3393
+		Reduce output records=352372
+		Spilled Records=6786
+		Shuffled Maps =0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=14
+		Total committed heap usage (bytes)=398458880
+	File Input Format Counters 
+		Bytes Read=67859
+	File Output Format Counters 
+		Bytes Written=10298632
+14/05/15 19:09:46 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+14/05/15 19:09:46 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+14/05/15 19:09:46 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+14/05/15 19:09:46 WARN mapreduce.JobSubmitter: No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+14/05/15 19:09:46 INFO mapred.FileInputFormat: Total input paths to process : 1
+14/05/15 19:09:46 INFO mapreduce.JobSubmitter: number of splits:1
+14/05/15 19:09:46 INFO Configuration.deprecation: user.name is deprecated. Instead, use mapreduce.job.user.name
+14/05/15 19:09:46 INFO Configuration.deprecation: mapred.mapoutput.value.class is deprecated. Instead, use mapreduce.map.output.value.class
+14/05/15 19:09:46 INFO Configuration.deprecation: mapred.input.dir is deprecated. Instead, use mapreduce.input.fileinputformat.inputdir
+14/05/15 19:09:46 INFO Configuration.deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+14/05/15 19:09:46 INFO Configuration.deprecation: mapred.map.tasks is deprecated. Instead, use mapreduce.job.maps
+14/05/15 19:09:46 INFO Configuration.deprecation: mapred.mapoutput.key.class is deprecated. Instead, use mapreduce.map.output.key.class
+14/05/15 19:09:46 INFO Configuration.deprecation: mapred.working.dir is deprecated. Instead, use mapreduce.job.working.dir
+14/05/15 19:09:46 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_local1467640719_0002
+14/05/15 19:09:46 WARN conf.Configuration: file:/tmp/hadoop-hadoop/mapred/staging/hadoop1467640719/.staging/job_local1467640719_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/05/15 19:09:46 WARN conf.Configuration: file:/tmp/hadoop-hadoop/mapred/staging/hadoop1467640719/.staging/job_local1467640719_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+14/05/15 19:09:46 WARN conf.Configuration: file:/tmp/hadoop-hadoop/mapred/local/localRunner/hadoop/job_local1467640719_0002/job_local1467640719_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/05/15 19:09:46 WARN conf.Configuration: file:/tmp/hadoop-hadoop/mapred/local/localRunner/hadoop/job_local1467640719_0002/job_local1467640719_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+14/05/15 19:09:46 INFO mapreduce.Job: The url to track the job: http://localhost:8080/
+14/05/15 19:09:46 INFO mapreduce.Job: Running job: job_local1467640719_0002
+14/05/15 19:09:46 INFO mapred.LocalJobRunner: OutputCommitter set in config null
+14/05/15 19:09:46 INFO mapred.LocalJobRunner: OutputCommitter is org.apache.hadoop.mapred.FileOutputCommitter
+14/05/15 19:09:46 INFO mapred.LocalJobRunner: Waiting for map tasks
+14/05/15 19:09:46 INFO mapred.LocalJobRunner: Starting task: attempt_local1467640719_0002_m_000000_0
+14/05/15 19:09:46 INFO util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+14/05/15 19:09:46 INFO mapred.Task:  Using ResourceCalculatorProcessTree : null
+14/05/15 19:09:46 INFO mapred.MapTask: Processing split: file:/Users/hadoop/temp/part-00000:0+10218788
+14/05/15 19:09:46 INFO mapred.MapTask: numReduceTasks: 1
+14/05/15 19:09:46 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+14/05/15 19:09:46 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+14/05/15 19:09:46 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+14/05/15 19:09:46 INFO mapred.MapTask: soft limit at 83886080
+14/05/15 19:09:46 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+14/05/15 19:09:46 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+14/05/15 19:09:47 INFO mapred.LocalJobRunner: 
+14/05/15 19:09:47 INFO mapred.MapTask: Starting flush of map output
+14/05/15 19:09:47 INFO mapred.MapTask: Spilling map output
+14/05/15 19:09:47 INFO mapred.MapTask: bufstart = 0; bufend = 7752184; bufvoid = 104857600
+14/05/15 19:09:47 INFO mapred.MapTask: kvstart = 26214396(104857584); kvend = 24804912(99219648); length = 1409485/6553600
+14/05/15 19:09:47 INFO mapreduce.Job: Job job_local1467640719_0002 running in uber mode : false
+14/05/15 19:09:47 INFO mapreduce.Job:  map 0% reduce 0%
+14/05/15 19:09:47 INFO mapred.MapTask: Finished spill 0
+14/05/15 19:09:47 INFO mapred.Task: Task:attempt_local1467640719_0002_m_000000_0 is done. And is in the process of committing
+14/05/15 19:09:47 INFO mapred.LocalJobRunner: file:/Users/hadoop/temp/part-00000:0+10218788
+14/05/15 19:09:47 INFO mapred.Task: Task 'attempt_local1467640719_0002_m_000000_0' done.
+14/05/15 19:09:47 INFO mapred.LocalJobRunner: Finishing task: attempt_local1467640719_0002_m_000000_0
+14/05/15 19:09:47 INFO mapred.LocalJobRunner: Map task executor complete.
+14/05/15 19:09:47 INFO util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+14/05/15 19:09:47 INFO mapred.Task:  Using ResourceCalculatorProcessTree : null
+14/05/15 19:09:47 INFO mapred.Merger: Merging 1 sorted segments
+14/05/15 19:09:47 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 8456910 bytes
+14/05/15 19:09:47 INFO mapred.LocalJobRunner: 
+14/05/15 19:09:48 INFO mapred.Task: Task:attempt_local1467640719_0002_r_000000_0 is done. And is in the process of committing
+14/05/15 19:09:48 INFO mapred.LocalJobRunner: 
+14/05/15 19:09:48 INFO mapred.Task: Task attempt_local1467640719_0002_r_000000_0 is allowed to commit now
+14/05/15 19:09:48 INFO output.FileOutputCommitter: Saved output of task 'attempt_local1467640719_0002_r_000000_0' to file:/Users/hadoop/Desktop/AF/_temporary/0/task_local1467640719_0002_r_000000
+14/05/15 19:09:48 INFO mapred.LocalJobRunner: reduce > reduce
+14/05/15 19:09:48 INFO mapred.Task: Task 'attempt_local1467640719_0002_r_000000_0' done.
+14/05/15 19:09:48 INFO mapreduce.Job:  map 100% reduce 100%
+14/05/15 19:09:48 INFO mapreduce.Job: Job job_local1467640719_0002 completed successfully
+14/05/15 19:09:48 INFO mapreduce.Job: Counters: 24
+	File System Counters
+		FILE: Number of bytes read=52031684
+		FILE: Number of bytes written=66547277
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=352372
+		Map output records=352372
+		Map output bytes=7752184
+		Map output materialized bytes=8456934
+		Input split bytes=86
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=261607
+		Reduce shuffle bytes=0
+		Reduce input records=352372
+		Reduce output records=261607
+		Spilled Records=704744
+		Shuffled Maps =0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=8
+		Total committed heap usage (bytes)=771227648
+	File Input Format Counters 
+		Bytes Read=10298640
+	File Output Format Counters 
+		Bytes Written=5273029
+# of DrugNodes: 1018
+
+# of Edges: 261607
+
+Akankshas-MacBook-Pro:~ hadoop$ 
